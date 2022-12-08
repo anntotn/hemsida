@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+}
+
+.fa-google,
+h1 {
+  background: -webkit-linear-gradient(
+    45deg,
+    #ff5400,
+    #ff6d00,
+    #ff8500,
+    #ff9100,
+    #ff9e00,
+    #00b4d8,
+    #0096c7,
+    #0077b6,
+    #023e8a,
+    #03045e
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: auto;
+}
+
+ul li {
+  list-style-type: none;
+  float: left;
+  margin-right: auto;
+}

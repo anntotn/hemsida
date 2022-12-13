@@ -3,41 +3,30 @@
   padding: 0;
 }
 
-.Navbar {
+.navbar {
+  position: sticky;
+  top: 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
   width: 100vw;
-  height: 10vh;
-  align-items: center;
-  border: 1px solid black;
+  background-color: dimgrey;
 }
 
-.name {
-  display: flex;
-  align-items: center;
-}
-
-.fa-google,
-h1 {
-  background: -webkit-linear-gradient(
-    45deg,
-    #ff5400,
-    #ff6d00,
-    #ff8500,
-    #ff9100,
-    #ff9e00,
-    #00b4d8,
-    #0096c7,
-    #0077b6,
-    #023e8a,
-    #03045e
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-left: auto;
-}
-
-ul li {
+.navbar ul li {
   list-style-type: none;
   float: left;
-  margin-right: auto;
+  margin-right: 4vw;
+}
+
+ul li a {
+  color: lightgrey;
+}
+
+a:hover {
+  color: white;
+}
+
+#page1 {
 }

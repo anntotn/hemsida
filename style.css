@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -10,8 +11,8 @@
   align-items: center;
   justify-content: center;
   height: 6vh;
-  width: 100vw;
-  background-color: #000;
+  width: 98.5vw;
+  background-color: black;
   color: #fff;
   opacity: 0.9;
 }
@@ -33,9 +34,8 @@ a:hover {
 #page1 {
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: 98.5vw;
   height: 100vh;
-  border: 1px solid black;
   background-image: url("razer-phone-2-uhd-4k-wallpaper.jpg");
   background-size: cover;
 }
@@ -62,7 +62,29 @@ a:hover {
 
 #page2 {
   display: flex;
+  flex-wrap: wrap;
   height: 100vh;
-  width: 100vw;
-  border: 1px solid black;
+  width: 98.5vw;
+}
+
+.items {
+  height: 50%;
+  width: 50%;
+  background-size: cover;
+}
+
+.phone {
+  background-image: url("htc-u11-design.webp");
+}
+
+.ipad {
+  background-image: url("IMAGE_1666177896.webp");
+}
+
+.apple-watch {
+  background-image: url("104458-apple-watch-series-3-wwdc-2017-4k.jpg");
+}
+
+.air-pods {
+  background-image: url("4340428.webp");
 }

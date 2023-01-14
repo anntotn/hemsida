@@ -1,92 +1,23 @@
 * {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+  font-family: sans-serif;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.banner {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("hero_watch_ultra__cbu8ymf4a8xe_large_2x.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 .navbar {
-  position: sticky;
-  top: 0;
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 6vh;
-  background-color: black;
-  color: #fff;
-  opacity: 0.9;
-}
-
-.navbar ul li {
-  list-style-type: none;
-  float: left;
-  margin-right: 4vw;
-}
-
-ul li a {
-  color: lightgrey;
-}
-
-a:hover {
-  color: white;
-}
-
-#page1 {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  background-image: url("razer-phone-2-uhd-4k-wallpaper.jpg");
-  background-size: cover;
-}
-
-.W11 {
-  display: block;
-  margin-top: 4vh;
-}
-
-.W11 h1 {
-  color: white;
-  font-size: 15vw;
-}
-
-.W11 a {
-  color: lightskyblue;
-  text-decoration: none;
-  font-size: 5vw;
-}
-
-.W11 a:hover {
-  color: white;
-}
-
-#page2 {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
-}
-
-.apple-watch {
-  background-image: url("hero_watch_ultra__cbu8ymf4a8xe_large_2x.jpg");
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50%;
-  width: 50%;
-  background-size: cover;
-}
-
-#page3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  height: 100vh;
-}
-
-.div {
-  height: 60vh;
-  width: 40vw;
-  border: 1px solid black;
-  margin: 2vh;
+  justify-content: space-between;
 }

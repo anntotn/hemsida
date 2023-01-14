@@ -16,17 +16,50 @@
     <div class="navbar">
       <i class="fa-brands fa-apple fa-4x"></i>
       <ul>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#Forms">Forms</a></li>
+        <li><a href="#page1">Home</a></li>
+        <li><a href="#page2">Forms</a></li>
         <li><a href="#About us">About us</a></li>
       </ul>
     </div>
-    <section id="page1">
+    <section id="page1" class="allpage">
       <div class="content">
         <h1>APPLE WATCH</h1>
         <p>The Future Of Technology</p>
       </div>
     </section>
-    <section id="page2"></section>
+    <section id="page2" class="allpage">
+      <div class="form">
+        <div>
+          <form>
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            /><label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="Sweden">Sweden</option>
+              <option value="Norway">Norway</option>
+              <option value="Finland">Finland</option></select
+            ><label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+            <input type="submit" />
+          </form>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -6,30 +6,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-@keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-  50% {
-    transform: translate(0, 5px);
-  }
-  100% {
-    transform: translate(0, 0px);
-  }
-}
-
 .navbar {
   position: sticky;
   top: 0;
@@ -62,8 +38,6 @@ a:hover {
   height: 100vh;
   background-image: url("razer-phone-2-uhd-4k-wallpaper.jpg");
   background-size: cover;
-  animation-duration: 3s;
-  animation-name: slidein;
 }
 
 .W11 {
@@ -73,7 +47,7 @@ a:hover {
 
 .W11 h1 {
   color: white;
-  font-size: 10vw;
+  font-size: 15vw;
 }
 
 .W11 a {
@@ -92,33 +66,14 @@ a:hover {
   height: 100vh;
 }
 
-#page2 .items {
+.apple-watch {
+  background-image: url("hero_watch_ultra__cbu8ymf4a8xe_large_2x.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50%;
   width: 50%;
   background-size: cover;
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-.phone {
-  background-image: url("EDA001432315D.jpg");
-}
-
-.ipad {
-  background-image: url("hero__ecv967jz1y82_large_2x.jpg");
-}
-
-.apple-watch {
-  background-image: url("hero_watch_ultra__cbu8ymf4a8xe_large_2x.jpg");
-}
-
-.air-pods {
-  background-image: url("4340428.webp");
 }
 
 #page3 {

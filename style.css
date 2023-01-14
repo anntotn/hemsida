@@ -4,7 +4,55 @@
   font-family: sans-serif;
 }
 
-.banner {
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  height: 4vh;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.navbar i {
+  background: -webkit-linear-gradient(red, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 2vh;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+  color: aqua;
+}
+
+#page1 {
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
@@ -13,11 +61,19 @@
   background-position: center;
 }
 
-.navbar {
-  width: 85%;
-  margin: auto;
-  padding: 35px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: center;
+  color: white;
+}
+
+.content h1 {
+  font-size: 7vw;
+}
+
+.content p {
+  font-size: 4vw;
 }

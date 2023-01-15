@@ -83,10 +83,13 @@
   font-size: 4vw;
 }
 
-#page2 {
+.flex {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#page2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("hero__ecv967jz1y82_large_2x.jpg");
 }
@@ -102,6 +105,10 @@
     rgb(0, 0, 0) 99.4%
   );
   border-radius: 1%;
+}
+
+.form label {
+  color: white;
 }
 
 input[type="text"],
@@ -132,4 +139,16 @@ input[type="submit"]:hover {
 #page3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("iphone-13-model-unselect-gallery-1-202207\ \(1\).jpg");
+}
+
+.about {
+  flex-wrap: wrap;
+  width: 40vw;
+  height: 40vh;
+  border: 1px solid red;
+}
+
+.about h2 {
+  color: white;
+  font-size: 8vw;
 }

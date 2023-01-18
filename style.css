@@ -26,15 +26,6 @@ body {
   }
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .flex {
   display: flex;
   align-items: center;
@@ -109,6 +100,20 @@ body {
 #page2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("hero__ecv967jz1y82_large_2x.jpg");
+}
+
+#page2 div {
+  width: 10vw;
+}
+
+#page2 div h2 {
+  color: white;
+  font-size: 7vw;
+}
+
+#page2 div p {
+  color: white;
+  font-size: 3vw;
 }
 
 #page3 {
@@ -213,6 +218,14 @@ textarea {
 
   #page1 .content p {
     font-size: 5vw;
+  }
+
+  #page2 div h2 {
+    font-size: 15vw;
+  }
+
+  #page2 div p {
+    font-size: 7vw;
   }
 
   #page4 div a {

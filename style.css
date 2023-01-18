@@ -125,7 +125,7 @@ body {
 #page3 div {
   width: 15vw;
   animation-name: slide;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
